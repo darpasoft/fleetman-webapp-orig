@@ -13,6 +13,8 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 import com.netflix.ribbon.proxy.annotation.Hystrix;
 
+import com.netflix.appinfo.AmazonInfo;
+
 @SpringBootApplication
 @EnableCircuitBreaker
 @EnableFeignClients
