@@ -1,6 +1,6 @@
 node {
     stage('Preparation') { 
-        git 'https://github.com/darpasoft/fleetman-webapp'
+        git 'https://github.com/darpasoft/fleetman-webapp-orig'
     }
     stage('Build') {
         sh "mvn clean package"
